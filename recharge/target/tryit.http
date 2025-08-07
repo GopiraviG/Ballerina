@@ -1,0 +1,39 @@
+/*
+### Try Service: 'recharge' (http://localhost:8080/recharge)
+
+*/
+
+/*
+#### POST /television
+
+*/
+###
+POST http://localhost:8080/recharge/television
+Content-Type: application/json
+
+# Modify the JSON payload as needed
+#
+# Expected schema:
+#   object
+#   - CustomerAccountNumber: string
+#   - SmartCardNumber: string
+#   - MobileNumber: string
+#   - Amount: integer(int64)
+#   - PackageId: string
+#   - PackageDuration: string
+#   - Reference: string
+#   - Currency: string
+#   - IsPosted: boolean
+
+{
+  "CustomerAccountNumber": "{?}",
+  "SmartCardNumber": "{?}",
+  "MobileNumber": "{?}",
+  "Amount": 0,
+  "PackageId": "{?}",
+  "PackageDuration": "{?}",
+  "Reference": "{?}",
+  "Currency": "{?}",
+  "IsPosted": false
+}
+
