@@ -1,0 +1,31 @@
+/*
+### Try Service: 'mobile' (http://localhost:9090/mobile)
+
+*/
+
+/*
+#### POST /queuePush
+
+*/
+###
+POST http://localhost:9090/mobile/queuePush
+Content-Type: application/json
+
+# Modify the JSON payload as needed
+#
+# Expected schema:
+#   object
+#   - Amount: integer(int64)
+#   - MobileNumber: string
+#   - CurrencyCode: string
+#   - FspCode: string
+#   - DebitAccountId: string
+
+{
+  "Amount": 0,
+  "MobileNumber": "{?}",
+  "CurrencyCode": "{?}",
+  "FspCode": "{?}",
+  "DebitAccountId": "{?}"
+}
+
